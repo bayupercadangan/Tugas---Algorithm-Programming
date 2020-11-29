@@ -28,7 +28,7 @@ int main() {
 
   // Operator Pembagian
   result = a / b;
-  printf("%d / %d = %.2f \n", a, b, result);
+  printf("%d / %d = %d \n", a, b, result);
 
   // Operator Dividen
   result = a % b;
