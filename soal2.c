@@ -59,11 +59,7 @@ float TotalPendidikan(int gaji, int pendidikan) {
 int TotalLembur(int gaji, int jamLembur) {
   int totalLembur, lembur = 3000;
 
-  if (jamLembur > 8) {
-    totalLembur = (jamLembur - 8) * lembur;
-  } else {
-    totalLembur = 0;
-  }
+  totalLembur = jamLembur * lembur;
 
   return totalLembur;
 }
